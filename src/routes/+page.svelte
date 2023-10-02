@@ -24,8 +24,8 @@
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden}>
 		<NavLi href="/" active={true}>Home</NavLi>
-		<NavLi href="/">Question banks</NavLi> <!-- question papers, decide whether to include answer keys or not -->
-		<NavLi href="/">Programs</NavLi> <!-- programs in java, c++, and python -->
+		<NavLi href="/">Question banks</NavLi> <!-- question papers, decide whether to include answer keys or not --><!--Please include answer keys--!>
+		<NavLi href="/">Programs</NavLi> <!-- programs in java, c++, and python --><!--do classes exist here?--!>
 		<NavLi href="/about">About</NavLi>
 	</NavUl>
 	<!-- I'LL WORK ON THIS AFTER I RETURN FROM KOLKATA -->
