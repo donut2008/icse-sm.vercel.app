@@ -3,11 +3,10 @@
 		Navbar,
 		NavBrand,
 		NavLi,
-		NavUl,
 		NavHamburger,
-        Heading,
         P,
 	} from "flowbite-svelte";
+    import NavUl from '../../NavUl.svelte';
 </script>
 
 <Navbar let:hidden let:toggle>
@@ -24,13 +23,13 @@
 		</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
-	<NavUl {hidden}>
-		<NavLi href="/home" active={true}>Home</NavLi>
+	<NavUl>
+		<NavLi href="/home">Home</NavLi>
 		<NavLi href="/banks">Question banks</NavLi> <!-- question papers, decide whether to include answer keys or not -->
 		<NavLi href="/programs">Programs</NavLi> <!-- programs in java, c++, and python -->
-		<NavLi href="/about">About</NavLi>
+		<NavLi href="/about" active={true}>About</NavLi>
 	</NavUl>
 </Navbar>
 <div class="text-center">
-    <P class="mb-6 text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">[insert text here]</P>
+    <P class="mb-6 text-lg lg:text-xl sm:px-16 xl:px-48 text-gray-400">[insert text here]</P>
 </div>
