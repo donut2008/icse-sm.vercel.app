@@ -23,7 +23,7 @@
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden}>
-		<NavLi href="/home">Home</NavLi>
+		<NavLi href="./home">Home</NavLi>
 		<NavLi href="/banks">Question banks</NavLi> <!-- question papers, decide whether to include answer keys or not -->
 		<NavLi href="/programs">Programs</NavLi> <!-- programs in java, c++, and python -->
 		<NavLi href="/about">About</NavLi>
