@@ -13,12 +13,12 @@
 		<img
 			src="https://flowbite.com/docs/images/logo.svg"
 			class="mr-3 h-6 sm:h-9"
-			alt="NoteMaster Logo"
+			alt="ICSE Study Material Logo"
 		/>
 		<span
 			class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
 		>
-			NoteMaster
+			ICSE Study Material
 		</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
