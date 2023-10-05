@@ -25,11 +25,11 @@
 	<NavHamburger on:click={toggle} />
 	<NavUl>
 		<NavLi href="/home">Home</NavLi>
-		<NavLi href="/banks" active={true}>Question banks</NavLi> <!-- question papers, decide whether to include answer keys or not -->
-		<NavLi href="/programs">Programs</NavLi> <!-- programs in java, c++, and python -->
+		<NavLi href="/banks" active={true}>Question banks</NavLi>
+		<NavLi href="/programs">Programs</NavLi>
 		<NavLi href="/about">About</NavLi>
 	</NavUl>
 </Navbar>
 <div class="text-center">
-    <P class="mb-6 text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">where questions</P>
+    <P class="mb-6 text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Under construction</P>
 </div>
